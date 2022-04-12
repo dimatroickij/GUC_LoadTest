@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\guts_load\UFO
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\guts_load\ufo\\logfile.log
+f:\guts_load\ufo\\combined_UFO.c
+f:\guts_load\ufo\\pre_cci.c

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\guts_load\AUC_CA
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\guts_load\auc_ca\\logfile.log
+f:\guts_load\auc_ca\\combined_AUC_CA.c
+f:\guts_load\auc_ca\\pre_cci.c

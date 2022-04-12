@@ -1,0 +1,67 @@
+Virtual User Script started at: 04.03.2020 18:03:05
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 OPR/66.0.3515.115  	[MsgId: MMSG-26988]
+Run-Time Settings file: "F:\guts_load\portalUFO_AUC_List\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(12): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(15): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_url("guc2018.voskhod.ru") started  	[MsgId: MMSG-26355]
+Action.c(18): Found resource "https://guc2018.voskhod.ru/assets/settings.js" in HTML "https://guc2018.voskhod.ru/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://guc2018.voskhod.ru/styles.48577afa67120b595a09.css" in HTML "https://guc2018.voskhod.ru/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://api-maps.yandex.ru/2.1/?lang=ru_RU" in HTML "https://guc2018.voskhod.ru/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://guc2018.voskhod.ru/runtime.26209474bfa8dc87a77c.js" in HTML "https://guc2018.voskhod.ru/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://guc2018.voskhod.ru/polyfills.879f6f182ad7647d76cf.js" in HTML "https://guc2018.voskhod.ru/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://guc2018.voskhod.ru/main.9ea38d1d007b1dd54150.js" in HTML "https://guc2018.voskhod.ru/"  	[MsgId: MMSG-26659]
+Action.c(18): Downloading resource "https://guc2018.voskhod.ru/assets/img/main/Executes.png" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "https://guc2018.voskhod.ru/assets/img/main/Accepts.png" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(18): Downloading resource "https://guc2018.voskhod.ru/assets/img/main/Provides.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(18): web_url("guc2018.voskhod.ru") was successful, 4925545 body bytes, 4022 header bytes, 52 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(35): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(35): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(38): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(38): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(41): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(41): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(44): web_custom_request("siteDynamicData") started  	[MsgId: MMSG-26355]
+Action.c(44): Downloading resource "https://guc2018.voskhod.ru/assets/svg/Coat_of_Arms_of_the_Russian_Federation_background.svg" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(44): Downloading resource "https://guc2018.voskhod.ru/open-iconic.3cf97837524dd7445e9d.woff" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(44): web_custom_request("siteDynamicData") was successful, 393767 body bytes, 1066 header bytes  	[MsgId: MMSG-26386]
+Action.c(58): web_url("dictionaries") started  	[MsgId: MMSG-26355]
+Action.c(58): web_url("dictionaries") was successful, 3003 body bytes, 286 header bytes  	[MsgId: MMSG-26386]
+Action.c(67): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(67): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(70): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(70): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(72): web_custom_request("list") started  	[MsgId: MMSG-26355]
+Action.c(72): web_custom_request("list") was successful, 2234317 body bytes, 292 header bytes, 519 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(87): web_url("5167746159785") started  	[MsgId: MMSG-26355]
+Action.c(87): web_url("5167746159785") was successful, 23156 body bytes, 292 header bytes, 29 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(96): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(98): web_url("5167746159785_2") started  	[MsgId: MMSG-26355]
+Action.c(98): web_url("5167746159785_2") was successful, 2491 body bytes, 286 header bytes  	[MsgId: MMSG-26386]
+Action.c(112): lr_eval_json succeed
+Action.c(115): lr_json_get_values succeed, 30 matches
+Action.c(121): Value is 30
+Action.c(123): lr_eval_json succeed
+Action.c(126): lr_json_get_values succeed, 2 matches
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

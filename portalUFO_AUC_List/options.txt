@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\guts_load\portalUFO_AUC_List
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ef:\guts_load\portalufo_auc_list\\logfile.log
+f:\guts_load\portalufo_auc_list\\combined_portalUFO_AUC_List.c
+f:\guts_load\portalufo_auc_list\\pre_cci.c
